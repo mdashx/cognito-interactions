@@ -1,0 +1,29 @@
+# Don't check auto-generated stuff into git
+coverage
+node_modules
+stats.json
+docs
+
+
+# Binary files
+*.rdb
+*.pickle
+bin/
+dist/
+dll/
+
+# Cruft
+.DS_Store
+npm-debug.log
+commit.txt
+commit.org
+**/*.egg-info/
+*.pyc
+tmp.txt
+tmp.py
+*~
+.#*
+
+# Sensitive files
+*secret*
+.env

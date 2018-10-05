@@ -1,0 +1,21 @@
+{
+  "name": "cognito-interactions",
+  "version": "0.0.1",
+  "description": "Uses the Cognito SDK (amazon-cognito-idenity-js) to provide common authentication functionality, such as login, logout, MFA, password reset, force password change, and password validation.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "Cognito",
+    "authentication",
+    "login"
+  ],
+  "author": "Tom H. <tom@mdashx.com> (https://www.mdashx.com)",
+  "license": "MIT",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.20",
+    "aws-sdk": "^2.294.0"
+  }
+}
