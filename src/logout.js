@@ -8,7 +8,6 @@ export default parent => {
       parent.cognitoUser.getSession((err, session) => {
         if (err === undefined || err === null) {
           parent.cognitoUser.signOut();
-          window.location = '/';
         }
       });
     }
