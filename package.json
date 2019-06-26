@@ -1,6 +1,6 @@
 {
   "name": "cognito-interactions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Uses the Cognito SDK (amazon-cognito-idenity-js) to provide common authentication functionality, such as login, logout, MFA, password reset, force password change, and password validation.",
   "main": "./src/index.js",
   "scripts": {
