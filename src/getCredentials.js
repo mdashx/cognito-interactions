@@ -38,12 +38,10 @@ export default parent => {
               if (error) {
                 parent.notifier(error.msg);
                 reject(error);
-              } else {
-                parent.awsCredentials = AWS.config.credentials;
-                /* console.log(parent.awsCredentials);*/
-                resolve(parent.awsCredentials);
               }
             });
+            parent.awsCredentials = AWS.config.credentials;
+            resolve(parent.awsCredentials);
           }
         });
       }
