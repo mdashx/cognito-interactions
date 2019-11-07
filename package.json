@@ -1,21 +1,53 @@
 {
-  "name": "cognito-interactions",
-  "version": "0.1.1",
-  "description": "Uses the Cognito SDK (amazon-cognito-idenity-js) to provide common authentication functionality, such as login, logout, MFA, password reset, force password change, and password validation.",
-  "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "cognito-interactions@0.1.0",
+      "/mnt/c/Users/Tom/Sync/home/tracelight-ui"
+    ]
+  ],
+  "_from": "cognito-interactions@0.1.0",
+  "_id": "cognito-interactions@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-MqRUWMlOjbMj6R70rBhY+ARa5FyYYE2mGcbOVnGLo7cT5Yut79f3e9ungnxQt0f8AEm5PLEMymKMAM23/WbUAA==",
+  "_location": "/cognito-interactions",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cognito-interactions@0.1.0",
+    "name": "cognito-interactions",
+    "escapedName": "cognito-interactions",
+    "rawSpec": "0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "0.1.0"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cognito-interactions/-/cognito-interactions-0.1.0.tgz",
+  "_spec": "0.1.0",
+  "_where": "/mnt/c/Users/Tom/Sync/home/tracelight-ui",
+  "author": {
+    "name": "Tom H.",
+    "email": "tom@mdashx.com",
+    "url": "https://www.mdashx.com"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.20",
+    "aws-sdk": "^2.294.0"
+  },
+  "description": "Uses the Cognito SDK (amazon-cognito-idenity-js) to provide common authentication functionality, such as login, logout, MFA, password reset, force password change, and password validation.",
   "keywords": [
     "AWS",
     "Cognito",
     "authentication",
     "login"
   ],
-  "author": "Tom H. <tom@mdashx.com> (https://www.mdashx.com)",
   "license": "MIT",
-  "dependencies": {
-    "amazon-cognito-identity-js": "^2.0.20",
-    "aws-sdk": "^2.294.0"
-  }
+  "main": "./src/index.js",
+  "name": "cognito-interactions",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
 }

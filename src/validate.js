@@ -1,13 +1,15 @@
 export const validatePhone = phone => {
   let phoneEdited = phone.replace(/\D/g, '');
 
-  if (phoneEdited.length === 10) {
-    return `+1${phoneEdited}`;
-  } else if (phoneEdited.length === 11) {
-    return `+${phoneEdited}`;
-  } else {
-    return false;
-  }
+  // +359 2 885 837 380
+
+  /* if (phoneEdited.length === 10) {
+   *   return `+1${phoneEdited}`;
+   * } else if (phoneEdited.length === 11) {
+   *   return `+${phoneEdited}`;
+   * } else {
+   *   return false;
+   * } */
 };
 
 export const validatePassword = (pass1, pass2) => {

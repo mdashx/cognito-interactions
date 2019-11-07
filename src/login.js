@@ -19,10 +19,18 @@ export default parent => {
       Pool: userPool,
     });
 
+    window.cognitoUser = parent.cognitoUser;
+
     return new Promise((resolve, reject) => {
       parent.cognitoUser.authenticateUser(authenticationDetails, {
         onSuccess: function(result) {
+          console.log('====', result);
           resolve(result);
+        },
+        totpRequired: function(result) {
+          resolve({
+            type: 'software_token_mfa',
+          });
         },
         mfaRequired: function(result) {
           resolve({
